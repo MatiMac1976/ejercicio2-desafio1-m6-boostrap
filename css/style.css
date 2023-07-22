@@ -1,0 +1,41 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+}
+
+.custom-image {
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        width: 100%;
+    }
+
+    .custom-image {
+        width: 100%;
+    }
+}
+
+h3 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 30pt;
+    color: #04146c;
+}
+
+p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 15pt;
+    color: #04146c;
+}
+
+p span {
+    font-weight: 700;
+    color: #0a2ff1;
+}
